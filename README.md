@@ -2,6 +2,8 @@
 
 Sample to show how to use **Entity Framework** Core 2.0 with **Xamarin.Forms**.
 
+<img src="images/ef-core-todo-01.png" Width="210" /> <img src="images/ef-core-todo-02.png" Width="210" />
+
 ## Requirements
 
 * Visual Studio 2017 15.3.0 or higher
