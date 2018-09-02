@@ -3,26 +3,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="App.xaml" />
-    <None Remove="Views\TodoItemView.xaml" />
-    <None Remove="Views\TodoListView.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="Views\TodoItemView.xaml" />
-    <EmbeddedResource Include="Views\TodoListView.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.6.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
-    <PackageReference Include="Xamarin.Forms" Version="2.4.0.269-pre2" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Views\TodoListView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\TodoItemView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>
 </Project>
